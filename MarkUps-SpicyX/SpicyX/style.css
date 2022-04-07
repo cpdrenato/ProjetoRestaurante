@@ -1,3 +1,11 @@
+.loginBtn {
+  margin-left: 30px;
+  background-color: #C1A35F;
+  color: #404040;
+}
+.loginBtn:hover{
+  background-color: black;
+}
 /*
   Template Name: SpicyX
   Author : MarkUps
