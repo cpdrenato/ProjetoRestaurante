@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <title>SpicyX | Home</title>
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SpicyX | Home</title>
 
-    <!-- Font awesome -->
-    <link href="assets/css/font-awesome.css" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">   
-    <!-- Slick slider -->
-    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">    
-    <!-- Date Picker -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-datepicker.css">    
-    <!-- Fancybox slider -->
-    <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
-    <!-- Theme color -->
-    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">     
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
 
-    <!-- Main style sheet -->
-    <link href="style.css" rel="stylesheet">    
+  <!-- Font awesome -->
+  <link href="assets/css/font-awesome.css" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <!-- Slick slider -->
+  <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+  <!-- Date Picker -->
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-datepicker.css">
+  <!-- Fancybox slider -->
+  <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" />
+  <!-- Theme color -->
+  <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
 
-   
-    <!-- Google Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>        
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
-    
+  <!-- Main style sheet -->
+  <link href="style.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
+
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-  </head>
-  <body>  
+</head>
+
+<body>
   <!-- Pre Loader -->
   <div id="aa-preloader-area">
     <div class="mu-preloader">
@@ -48,15 +50,15 @@
     </div>
   </div>
   <!--START SCROLL TOP BUTTON -->
-    <a class="scrollToTop" href="#">
-      <i class="fa fa-angle-up"></i>
-      <span>Top</span>
-    </a>
+  <a class="scrollToTop" href="#">
+    <i class="fa fa-angle-up"></i>
+    <span>Top</span>
+  </a>
   <!-- END SCROLL TOP BUTTON -->
 
   <!-- Start header section -->
-  <header id="mu-header">  
-    <nav class="navbar navbar-default mu-main-navbar" role="navigation">  
+  <header id="mu-header">
+    <nav class="navbar navbar-default mu-main-navbar" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
@@ -66,28 +68,29 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <!-- LOGO -->                                                        
-          <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="Logo img"></a> 
+          <!-- LOGO -->
+          <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="Logo img"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
             <li><a href="#mu-slider">Início</a></li>
-            <li><a href="#mu-about-us">Sobre nós</a></li>                       
-            <li><a href="#mu-restaurant-menu">Cardápio</a></li>                       
+            <li><a href="#mu-about-us">Sobre nós</a></li>
+            <li><a href="#mu-restaurant-menu">Cardápio</a></li>
             <li><a href="#mu-gallery">Galeria</a></li>
-            <li><a href="#mu-contact">Contato</a></li> 
-            <li><a href="sigin.php" class="btn loginBtn" href="#">Adminsitrativo</a></li> 
-          </ul>                            
-        </div><!--/.nav-collapse -->       
-      </div>          
-    </nav> 
+            <li><a href="#mu-contact">Contato</a></li>
+            <li><a href="sigin.php" class="btn loginBtn" href="#">Adminsitrativo</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+    </nav>
   </header>
   <!-- End header section -->
- 
+
 
   <!-- Start slider  -->
   <section id="mu-slider">
-    <div class="mu-slider-area"> 
+    <div class="mu-slider-area">
       <!-- Top slider -->
       <div class="mu-top-slider">
         <!-- Top slider single slide -->
@@ -97,38 +100,38 @@
           <div class="mu-top-slider-content">
             <span class="mu-slider-small-title">Bem Vindo</span>
             <h2 class="mu-slider-title">Restaurante Bicuiba</h2>
-            <p>Venha fazer uma visita ao nosso restaurante e aproveitar os nossos melhores pratos.</p>           
+            <p>Venha fazer uma visita ao nosso restaurante e aproveitar os nossos melhores pratos.</p>
             <a href="#mu-about-us" class="mu-readmore-btn">Sobre nós</a>
           </div>
           <!-- / Top slider content -->
         </div>
-        <!-- / Top slider single slide -->    
-         <!-- Top slider single slide -->
+        <!-- / Top slider single slide -->
+        <!-- Top slider single slide -->
         <div class="mu-top-slider-single">
           <img src="assets/img/slider/2.jpg" alt="img">
           <!-- Top slider content -->
           <div class="mu-top-slider-content">
             <span class="mu-slider-small-title">Bem Vindo</span>
             <h2 class="mu-slider-title">Restaurante Bicuiba</h2>
-            <p>Venha fazer uma visita ao nosso restaurante e aproveitar os nossos melhores pratos.</p>         
+            <p>Venha fazer uma visita ao nosso restaurante e aproveitar os nossos melhores pratos.</p>
             <a href="#mu-about-us" class="mu-readmore-btn">Sobre nós</a>
           </div>
           <!-- / Top slider content -->
         </div>
-        <!-- / Top slider single slide --> 
-         <!-- Top slider single slide -->
+        <!-- / Top slider single slide -->
+        <!-- Top slider single slide -->
         <div class="mu-top-slider-single">
           <img src="assets/img/slider/3.jpg" alt="img">
           <!-- Top slider content -->
           <div class="mu-top-slider-content">
             <span class="mu-slider-small-title">Bem Vindo</span>
             <h2 class="mu-slider-title">Restaurante Bicuiba</h2>
-            <p>Venha fazer uma visita ao nosso restaurante e aproveitar os nossos melhores pratos.</p>           
+            <p>Venha fazer uma visita ao nosso restaurante e aproveitar os nossos melhores pratos.</p>
             <a href="#mu-about-us" class="mu-readmore-btn">Sobre nós</a>
           </div>
           <!-- / Top slider content -->
         </div>
-        <!-- / Top slider single slide -->    
+        <!-- / Top slider single slide -->
       </div>
     </div>
   </section>
@@ -143,29 +146,29 @@
             <div class="mu-title">
               <span class="mu-subtitle">Descubra</span>
               <h2>Sobre nós</h2>
-              <i class="fa fa-spoon"></i>              
+              <i class="fa fa-spoon"></i>
               <span class="mu-title-bar"></span>
             </div>
             <div class="row">
               <div class="col-md-6">
                 <div class="mu-about-us-left">
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam minus aliquid, itaque illum assumenda repellendus dolorem, dolore numquam totam saepe, porro delectus, libero enim odio quo. Explicabo ex sapiente sit eligendi, facere voluptatum! Quia vero rerum sunt porro architecto corrupti eaque corporis eum, enim soluta, perferendis dignissimos, repellendus, beatae laboriosam.</p>                              
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam minus aliquid, itaque illum assumenda repellendus dolorem, dolore numquam totam saepe, porro delectus, libero enim odio quo. Explicabo ex sapiente sit eligendi, facere voluptatum! Quia vero rerum sunt porro architecto corrupti eaque corporis eum, enim soluta, perferendis dignissimos, repellendus, beatae laboriosam.</p>
                   <ul>
                     <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
                     <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>                    
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
                     <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
                     <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
                     <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
                   </ul>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque similique molestias est quod reprehenderit, quibusdam nam qui, quam magnam. Ex.</p>  
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque similique molestias est quod reprehenderit, quibusdam nam qui, quam magnam. Ex.</p>
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="mu-about-us-right">                
-                 <ul class="mu-abtus-slider">                 
-                   <li><img class="img-thumbnail" src="assets/img/slider/8.jpg" alt="img"></li>
-                 </ul>
+                <div class="mu-about-us-right">
+                  <ul class="mu-abtus-slider">
+                    <li><img class="img-thumbnail" src="assets/img/slider/8.jpg" alt="img"></li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -219,7 +222,7 @@
       </div>
     </div>
   </section> -->
-  <!-- End Counter Section --> 
+  <!-- End Counter Section -->
 
   <!-- Start Restaurant Menu -->
   <section id="mu-restaurant-menu">
@@ -230,7 +233,7 @@
             <div class="mu-title">
               <span class="mu-subtitle">Descubra</span>
               <h2>Nosso Cardápio</h2>
-              <i class="fa fa-spoon"></i>              
+              <i class="fa fa-spoon"></i>
               <span class="mu-title-bar"></span>
             </div>
             <div class="mu-restaurant-menu-content">
@@ -264,7 +267,7 @@
                                 </div>
                               </div>
                             </li>
-                             <li>
+                            <li>
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
@@ -278,7 +281,7 @@
                                 </div>
                               </div>
                             </li>
-                             <li>
+                            <li>
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
@@ -292,11 +295,11 @@
                                 </div>
                               </div>
                             </li>
-                          </ul>   
+                          </ul>
                         </div>
                       </div>
-                     <div class="col-md-6">
-                       <div class="mu-tab-content-right">
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-right">
                           <ul class="mu-menu-item-nav">
                             <li>
                               <div class="media">
@@ -312,7 +315,7 @@
                                 </div>
                               </div>
                             </li>
-                             <li>
+                            <li>
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
@@ -326,7 +329,7 @@
                                 </div>
                               </div>
                             </li>
-                             <li>
+                            <li>
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
@@ -340,11 +343,11 @@
                                 </div>
                               </div>
                             </li>
-                          </ul>   
-                       </div>
-                     </div>
-                   </div>
-                 </div>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="tab-pane fade " id="meals">
                   <div class="mu-tab-content-area">
@@ -366,7 +369,7 @@
                                 </div>
                               </div>
                             </li>
-                             <li>
+                            <li>
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
@@ -380,7 +383,7 @@
                                 </div>
                               </div>
                             </li>
-                             <li>
+                            <li>
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
@@ -394,11 +397,11 @@
                                 </div>
                               </div>
                             </li>
-                          </ul>   
+                          </ul>
                         </div>
                       </div>
-                     <div class="col-md-6">
-                       <div class="mu-tab-content-right">
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-right">
                           <ul class="mu-menu-item-nav">
                             <li>
                               <div class="media">
@@ -414,7 +417,7 @@
                                 </div>
                               </div>
                             </li>
-                             <li>
+                            <li>
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
@@ -428,7 +431,7 @@
                                 </div>
                               </div>
                             </li>
-                             <li>
+                            <li>
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
@@ -442,11 +445,11 @@
                                 </div>
                               </div>
                             </li>
-                          </ul>   
-                       </div>
-                     </div>
-                   </div>
-                 </div>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="tab-pane fade " id="snacks">
                   <div class="mu-tab-content-area">
@@ -468,7 +471,7 @@
                                 </div>
                               </div>
                             </li>
-                             <li>
+                            <li>
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
@@ -482,7 +485,7 @@
                                 </div>
                               </div>
                             </li>
-                             <li>
+                            <li>
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
@@ -496,11 +499,11 @@
                                 </div>
                               </div>
                             </li>
-                          </ul>   
+                          </ul>
                         </div>
                       </div>
-                     <div class="col-md-6">
-                       <div class="mu-tab-content-right">
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-right">
                           <ul class="mu-menu-item-nav">
                             <li>
                               <div class="media">
@@ -516,7 +519,7 @@
                                 </div>
                               </div>
                             </li>
-                             <li>
+                            <li>
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
@@ -530,7 +533,7 @@
                                 </div>
                               </div>
                             </li>
-                             <li>
+                            <li>
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
@@ -544,11 +547,11 @@
                                 </div>
                               </div>
                             </li>
-                          </ul>   
-                       </div>
-                     </div>
-                   </div>
-                 </div>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="tab-pane fade " id="desserts">
                   <div class="mu-tab-content-area">
@@ -570,7 +573,7 @@
                                 </div>
                               </div>
                             </li>
-                             <li>
+                            <li>
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
@@ -584,7 +587,7 @@
                                 </div>
                               </div>
                             </li>
-                             <li>
+                            <li>
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
@@ -598,11 +601,11 @@
                                 </div>
                               </div>
                             </li>
-                          </ul>   
+                          </ul>
                         </div>
                       </div>
-                     <div class="col-md-6">
-                       <div class="mu-tab-content-right">
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-right">
                           <ul class="mu-menu-item-nav">
                             <li>
                               <div class="media">
@@ -618,7 +621,7 @@
                                 </div>
                               </div>
                             </li>
-                             <li>
+                            <li>
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
@@ -632,7 +635,7 @@
                                 </div>
                               </div>
                             </li>
-                             <li>
+                            <li>
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
@@ -646,11 +649,11 @@
                                 </div>
                               </div>
                             </li>
-                          </ul>   
-                       </div>
-                     </div>
-                   </div>
-                 </div>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="tab-pane fade " id="drinks">
                   <div class="mu-tab-content-area">
@@ -672,7 +675,7 @@
                                 </div>
                               </div>
                             </li>
-                             <li>
+                            <li>
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
@@ -686,7 +689,7 @@
                                 </div>
                               </div>
                             </li>
-                             <li>
+                            <li>
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
@@ -700,11 +703,11 @@
                                 </div>
                               </div>
                             </li>
-                          </ul>   
+                          </ul>
                         </div>
                       </div>
-                     <div class="col-md-6">
-                       <div class="mu-tab-content-right">
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-right">
                           <ul class="mu-menu-item-nav">
                             <li>
                               <div class="media">
@@ -720,7 +723,7 @@
                                 </div>
                               </div>
                             </li>
-                             <li>
+                            <li>
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
@@ -734,7 +737,7 @@
                                 </div>
                               </div>
                             </li>
-                             <li>
+                            <li>
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
@@ -748,11 +751,11 @@
                                 </div>
                               </div>
                             </li>
-                          </ul>   
-                       </div>
-                     </div>
-                   </div>
-                 </div>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -846,7 +849,7 @@
             <div class="mu-title">
               <span class="mu-subtitle">Descubra</span>
               <h2>Our Gallery</h2>
-              <i class="fa fa-spoon"></i>              
+              <i class="fa fa-spoon"></i>
               <span class="mu-title-bar"></span>
             </div>
             <div class="mu-gallery-content">
@@ -873,7 +876,7 @@
                       <a href="assets/img/gallery/big/1.jpg" data-fancybox-group="gallery" class="fancybox">
                         <img src="assets/img/plus.png" alt="plus icon img">
                       </a>
-                    </div>                  
+                    </div>
                   </div>
                 </div>
                 <!-- End single gallery image -->
@@ -884,17 +887,17 @@
                       <a href="#"><img alt="img" src="assets/img/gallery/small/2.jpg"></a>
                     </figure>
                     <div class="mu-single-gallery-info">
-                     <a href="assets/img/gallery/big/2.jpg" data-fancybox-group="gallery" class="fancybox">
+                      <a href="assets/img/gallery/big/2.jpg" data-fancybox-group="gallery" class="fancybox">
                         <img src="assets/img/plus.png" alt="plus icon img">
                       </a>
-                    </div>                  
+                    </div>
                   </div>
-                </div>               
+                </div>
                 <!-- End single gallery image -->
                 <!-- start single gallery image -->
-                <div class="mu-single-gallery col-md-4 mix restaurant">                  
+                <div class="mu-single-gallery col-md-4 mix restaurant">
                   <div class="mu-single-gallery-item">
-                   <figure class="mu-single-gallery-img">
+                    <figure class="mu-single-gallery-img">
                       <a href="#"><img alt="img" src="assets/img/gallery/small/3.jpg"></a>
                     </figure>
                     <div class="mu-single-gallery-info">
@@ -903,10 +906,10 @@
                       </a>
                     </div>
                   </div>
-                </div>               
+                </div>
                 <!-- End single gallery image -->
                 <!-- start single gallery image -->
-                <div class="mu-single-gallery col-md-4 mix dinner">                  
+                <div class="mu-single-gallery col-md-4 mix dinner">
                   <div class="mu-single-gallery-item">
                     <figure class="mu-single-gallery-img">
                       <a href="#"><img alt="img" src="assets/img/gallery/small/4.jpg"></a>
@@ -915,26 +918,26 @@
                       <a href="assets/img/gallery/big/4.jpg" data-fancybox-group="gallery" class="fancybox">
                         <img src="assets/img/plus.png" alt="plus icon img">
                       </a>
-                    </div>                  
+                    </div>
                   </div>
                 </div>
                 <!-- End single gallery image -->
                 <!-- start single gallery image -->
-                <div class="mu-single-gallery col-md-4 mix dinner">                  
+                <div class="mu-single-gallery col-md-4 mix dinner">
                   <div class="mu-single-gallery-item">
                     <figure class="mu-single-gallery-img">
                       <a href="#"><img alt="img" src="assets/img/gallery/small/5.jpg"></a>
                     </figure>
                     <div class="mu-single-gallery-info">
-                     <a href="assets/img/gallery/big/5.jpg" data-fancybox-group="gallery" class="fancybox">
+                      <a href="assets/img/gallery/big/5.jpg" data-fancybox-group="gallery" class="fancybox">
                         <img src="assets/img/plus.png" alt="plus icon img">
                       </a>
-                    </div>   
+                    </div>
                   </div>
-                </div>               
-                <!-- End single gallery image -->               
+                </div>
+                <!-- End single gallery image -->
                 <!-- start single gallery image -->
-                <div class="mu-single-gallery col-md-4 mix food">                  
+                <div class="mu-single-gallery col-md-4 mix food">
                   <div class="mu-single-gallery-item">
                     <figure class="mu-single-gallery-img">
                       <a href="#"><img alt="img" src="assets/img/gallery/small/6.jpg"></a>
@@ -943,28 +946,28 @@
                       <a href="assets/img/gallery/big/6.jpg" data-fancybox-group="gallery" class="fancybox">
                         <img src="assets/img/plus.png" alt="plus icon img">
                       </a>
-                    </div>                  
+                    </div>
                   </div>
                 </div>
                 <!-- End single gallery image -->
                 <!-- start single gallery image -->
-                <div class="mu-single-gallery col-md-4 mix drink">                  
+                <div class="mu-single-gallery col-md-4 mix drink">
                   <div class="mu-single-gallery-item">
                     <figure class="mu-single-gallery-img">
                       <a href="#"><img alt="img" src="assets/img/gallery/small/7.jpg"></a>
                     </figure>
                     <div class="mu-single-gallery-info">
-                     <a href="assets/img/gallery/big/7.jpg" data-fancybox-group="gallery" class="fancybox">
+                      <a href="assets/img/gallery/big/7.jpg" data-fancybox-group="gallery" class="fancybox">
                         <img src="assets/img/plus.png" alt="plus icon img">
                       </a>
-                    </div>                  
+                    </div>
                   </div>
-                </div>               
+                </div>
                 <!-- End single gallery image -->
                 <!-- start single gallery image -->
-                <div class="mu-single-gallery col-md-4 mix restaurant">                  
+                <div class="mu-single-gallery col-md-4 mix restaurant">
                   <div class="mu-single-gallery-item">
-                   <figure class="mu-single-gallery-img">
+                    <figure class="mu-single-gallery-img">
                       <a href="#"><img alt="img" src="assets/img/gallery/small/8.jpg"></a>
                     </figure>
                     <div class="mu-single-gallery-info">
@@ -973,10 +976,10 @@
                       </a>
                     </div>
                   </div>
-                </div>               
+                </div>
                 <!-- End single gallery image -->
                 <!-- start single gallery image -->
-                <div class="mu-single-gallery col-md-4 mix dessert">                  
+                <div class="mu-single-gallery col-md-4 mix dessert">
                   <div class="mu-single-gallery-item">
                     <figure class="mu-single-gallery-img">
                       <a href="#"><img alt="img" src="assets/img/gallery/small/9.jpg"></a>
@@ -985,10 +988,10 @@
                       <a href="assets/img/gallery/big/9.jpg" data-fancybox-group="gallery" class="fancybox">
                         <img src="assets/img/plus.png" alt="plus icon img">
                       </a>
-                    </div>                  
+                    </div>
                   </div>
                 </div>
-                <!-- End single gallery image -->                         
+                <!-- End single gallery image -->
               </div>
             </div>
           </div>
@@ -997,9 +1000,9 @@
     </div>
   </section>
   <!-- End Gallery -->
-  
+
   <!-- Start Client Testimonial section -->
-  
+
   <!-- End Client Testimonial section -->
 
   <!-- Start Subscription section -->
@@ -1179,7 +1182,7 @@
   <!-- End Chef Section -->
 
   <!-- Start Latest News -->
-  
+
   <!-- End Latest News -->
 
   <!-- Start Contact section -->
@@ -1190,33 +1193,36 @@
           <div class="mu-contact-area">
             <div class="mu-title">
               <span class="mu-subtitle">Get In Touch</span>
-              <h2>Contact Us</h2>
-              <i class="fa fa-spoon"></i>              
+              <h2>Deixe sua mensagem</h2>
+              <i class="fa fa-spoon"></i>
               <span class="mu-title-bar"></span>
             </div>
             <div class="mu-contact-content">
               <div class="row">
                 <div class="col-md-6">
                   <div class="mu-contact-left">
-                    <form class="mu-contact-form">
+                    <!-- Formularii inserção de contato -->
+                    <form method="POST" action="controller.php?acao=inserir" class="mu-contact-form">
                       <div class="form-group">
-                        <label for="name">Your Name</label>
-                        <input type="text" class="form-control" id="name" placeholder="Name">
+                        <label for="name">Seu nome</label>
+                        <input name="name" type="text" class="form-control" id="name" placeholder="Nome">
                       </div>
                       <div class="form-group">
-                        <label for="email">Email address</label>
-                        <input type="email" class="form-control" id="email" placeholder="Email">
-                      </div>                      
-                      <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                        <label for="email">Endereço de email</label>
+                        <input name="email" type="email" class="form-control" id="email" placeholder="Email">
                       </div>
                       <div class="form-group">
-                        <label for="message">Message</label>                        
-                        <textarea class="form-control" id="message" cols="30" rows="10" placeholder="Type Your Message"></textarea>
-                      </div>                      
-                      <button type="submit" class="mu-send-btn">Send Message</button>
+                        <label for="subject">Assunto</label>
+                        <input name="assunto" type="text" class="form-control" id="subject" placeholder="Assunto">
+                      </div>
+                      <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea name="mensagem" class="form-control" id="message" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+                      </div>
+                      <!-- <button type="submit" class="mu-send-btn">Send Message</button> -->
+                      <button class="mu-send-btn">Enviar mensagem</button>
                     </form>
+
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -1231,7 +1237,7 @@
                       </address>
                     </div>
                     <div class="mu-contact-widget">
-                      <h3>Open Hours</h3>                      
+                      <h3>Open Hours</h3>
                       <address>
                         <p><span>Monday - Friday</span> 9.00 am to 12 pm</p>
                         <p><span>Saturday</span> 9.00 am to 10 pm</p>
@@ -1258,42 +1264,43 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-        <div class="mu-footer-area">
-           <div class="mu-footer-social">
-            <a href="#"><span class="fa fa-facebook"></span></a>
-            <a href="#"><span class="fa fa-twitter"></span></a>
-            <a href="#"><span class="fa fa-google-plus"></span></a>
-            <a href="#"><span class="fa fa-linkedin"></span></a>
-            <a href="#"><span class="fa fa-youtube"></span></a>
+          <div class="mu-footer-area">
+            <div class="mu-footer-social">
+              <a href="#"><span class="fa fa-facebook"></span></a>
+              <a href="#"><span class="fa fa-twitter"></span></a>
+              <a href="#"><span class="fa fa-google-plus"></span></a>
+              <a href="#"><span class="fa fa-linkedin"></span></a>
+              <a href="#"><span class="fa fa-youtube"></span></a>
+            </div>
+            <div class="mu-footer-copyright">
+              <p>Designed by <a rel="nofollow" href="http://www.markups.io/">MarkUps.io</a></p>
+            </div>
           </div>
-          <div class="mu-footer-copyright">
-            <p>Designed by <a rel="nofollow" href="http://www.markups.io/">MarkUps.io</a></p>
-          </div>         
         </div>
-      </div>
       </div>
     </div>
   </footer>
   <!-- End Footer -->
-  
+
   <!-- jQuery library -->
-  <script src="assets/js/jquery.min.js"></script>  
+  <script src="assets/js/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="assets/js/bootstrap.js"></script>   
+  <script src="assets/js/bootstrap.js"></script>
   <!-- Slick slider -->
   <script type="text/javascript" src="assets/js/slick.js"></script>
   <!-- Counter -->
   <script type="text/javascript" src="assets/js/waypoints.js"></script>
   <script type="text/javascript" src="assets/js/jquery.counterup.js"></script>
   <!-- Date Picker -->
-  <script type="text/javascript" src="assets/js/bootstrap-datepicker.js"></script> 
+  <script type="text/javascript" src="assets/js/bootstrap-datepicker.js"></script>
   <!-- Mixit slider -->
   <script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
-  <!-- Add fancyBox -->        
+  <!-- Add fancyBox -->
   <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
 
   <!-- Custom js -->
-  <script src="assets/js/custom.js"></script> 
+  <script src="assets/js/custom.js"></script>
 
-  </body>
+</body>
+
 </html>
