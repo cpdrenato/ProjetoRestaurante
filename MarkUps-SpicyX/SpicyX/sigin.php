@@ -62,7 +62,7 @@
                 </label>
             </div> -->
             <div class="d-flex flex-row bd-highlight mb-3">
-                <button class=" btn btn-lg" style="background-color: green; color: white; margin-right: 5px;" type="submit"><a style="text-decoration: none; color: white;" href="index.html">Voltar</a></button>
+                <button class=" btn btn-lg" style="background-color: green; color: white; margin-right: 5px;" type="submit"><a style="text-decoration: none; color: white;" href="index.php">Voltar</a></button>
                 <button class=" btn btn-lg" style="background-color: #c1a35f; color: white;" type="submit">Entrar</button>
             </div>
             <? if (isset($_GET['login']) && $_GET['login'] == 'erro') { ?>

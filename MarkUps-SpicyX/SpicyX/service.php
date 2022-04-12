@@ -30,13 +30,7 @@ class ContatoService {
 	}
 
 	public function recuperar() { //read
-		$query = '
-			select 
-				t.id, s.status, t.tarefa 
-			from 
-				tb_tarefas as t
-				left join tb_status as s on (t.id_status = s.id)
-		';
+		$query = 'select * from contato';
 		$stmt = $this->conexao->prepare($query);
 		$stmt->execute();
 		return $stmt->fetchAll(PDO::FETCH_OBJ);
@@ -53,9 +47,9 @@ class ContatoService {
 
 	public function remover() { //delete
 
-		$query = 'delete from tb_tarefas where id = :id';
+		$query = 'delete from contato where id = :id';
 		$stmt = $this->conexao->prepare($query);
-		$stmt->bindValue(':id', $this->tarefa->__get('id'));
+		$stmt->bindValue(':id', $this->contato->__get('id'));
 		$stmt->execute();
 	}
 
