@@ -1,7 +1,7 @@
 <?
 require_once "validador_acesso.php";
 $acao = 'recuperar';
-require './controller/contato_controller.php';
+require './controller/user_controller.php';
 ?>
 <!doctype html>
 <html lang="en">
@@ -89,44 +89,35 @@ require './controller/contato_controller.php';
             <div class="row">
                 <div class="row">
                     <div class="col">
-                        <h4>Todos contatos</h4>
+                        <h4>Todos usuarios</h4>
                         <hr />
                         <table class="table">
                             <thead>
                                 <tr>
                                     <th scope="col">#</th>
-                                    <th scope="col">Name</th>
                                     <th scope="col">Email</th>
-                                    <th scope="col">Assunto</th>
-                                    <th scope="col">Mensagem</th>
+                                    <th scope="col">Password</th>
                                     <th scope="col">CreatedAt</th>
-                                    <th scope="col">Metodos</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <? foreach ($contatos as $indice => $contato) { ?>
-                                    <tr id="contato_<?= $contato->id ?>">
+                                <? foreach ($users as $indice => $user) { ?>
+                                    <tr id="user_<?= $user->id ?>">
                                         <td>
-                                            <p><?= $contato->id ?></p>
+                                            <p><?= $user->id ?></p>
                                         </td>
                                         <td>
-                                            <p><?= $contato->name ?></p>
+                                            <p><?= $user->email ?></p>
                                         </td>
                                         <td>
-                                            <p><?= $contato->email ?></p>
+                                            <p><?= $user->password ?></p>
                                         </td>
                                         <td>
-                                            <p><?= $contato->assunto ?></p>
+                                            <p><?= $user->createdAt ?></p>
                                         </td>
                                         <td>
-                                            <p id="mensagem"><?= $contato->mensagem ?></p>
-                                        </td>
-                                        <td>
-                                            <p><?= $contato->createdAt ?></p>
-                                        </td>
-                                        <td>
-                                            <button onclick="remover(<?= $contato->id ?>)">Remover</button>
-                                            <!-- <i class="fas fa-trash-alt fa-lg text-danger" onclick="remover(<?= $contato->id ?>)">Ola</i> -->
+                                            <button onclick="remover(<?= $user->id ?>)">Remover</button>
+                                            <!-- <i class="fas fa-trash-alt fa-lg text-danger" onclick="remover(<?= $user->id ?>)">Ola</i> -->
                                         </td>
                                     </tr>
                                 <? } ?>

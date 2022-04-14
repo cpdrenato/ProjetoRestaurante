@@ -6,6 +6,7 @@ class Contato {
 	private $email;
 	private $assunto;
     private $mensagem;
+	private $createdAt;
 
 	public function __get($atributo) {
 		return $this->$atributo;

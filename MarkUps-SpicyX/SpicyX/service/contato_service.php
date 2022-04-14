@@ -17,7 +17,8 @@ class ContatoService {
 	}
 
 	public function inserir() { //create
-		$query = 'insert into contato (name, email, assunto, mensagem) values (:name,:email,:assunto,:mensagem)';
+		$dateTime = date('Y-m-d H:i:s', time());
+		$query = 'insert into contato (name, email, assunto, mensagem, createdAt) values (:name,:email,:assunto,:mensagem,:createdAt)';
 		// $query = 'insert into contato (name, email, assunto, mensagem) values (name,email,assunto,mensagem)';
 		// $query = 'insert into contato(tarefa)values(:tarefa)';
 		$stmt = $this->conexao->prepare($query);
@@ -25,6 +26,7 @@ class ContatoService {
 		$stmt->bindValue(':email', $this->contato->__get('email'));
 		$stmt->bindValue(':assunto', $this->contato->__get('assunto'));
 		$stmt->bindValue(':mensagem', $this->contato->__get('mensagem'));
+		$stmt->bindValue(':createdAt', $dateTime );
 		echo '<p>'.$this->contato->__get('mensagem').'</p>';
 		$stmt->execute();
 	}
