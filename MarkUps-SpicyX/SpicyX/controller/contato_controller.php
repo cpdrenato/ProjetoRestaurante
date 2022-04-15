@@ -2,7 +2,7 @@
 
 require "./model/contato_model.php";
 require "./service/contato_service.php";
-require "./conexao.php";
+require "./config/conexao.php";
 
 // require "./model.php";
 // require "../service.php";

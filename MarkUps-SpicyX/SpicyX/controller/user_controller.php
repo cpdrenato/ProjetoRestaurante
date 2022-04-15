@@ -2,8 +2,8 @@
 
 require "./model/user_model.php";
 require "./service/user_service.php";
+require "./config/conexao.php";
 
-require "./conexao.php";
 // require "./model.php";
 // require "../service.php";
 // require "../conexao.php";
