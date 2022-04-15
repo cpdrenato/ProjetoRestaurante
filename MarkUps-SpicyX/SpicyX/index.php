@@ -1202,7 +1202,7 @@
                 <div class="col-md-6">
                   <div class="mu-contact-left">
                     <!-- Formularii inserção de contato -->
-                    <form method="POST" action="./controller/contato_controller.php?acao=inserir" class="mu-contact-form">
+                    <form method="POST" action="contato_controller.php?acao=inserir" class="mu-contact-form">
                       <div class="form-group">
                         <label for="name">Seu nome</label>
                         <input name="name" type="text" class="form-control" id="name" placeholder="Nome">
