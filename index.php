@@ -555,7 +555,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Sucos de Polpa</a></h4>
-                                  <span class="mu-menu-price">$8,00</span>
+                                  <span class="mu-menu-price">R$8,00</span>
                                   <p>Consultar sabores do dia.</p>
                                 </div>
                               </div>
@@ -569,7 +569,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Suco Lata Del Valle</a></h4>
-                                  <span class="mu-menu-price">$6,00</span>
+                                  <span class="mu-menu-price">R$6,00</span>
                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                 </div>
                               </div>
@@ -583,7 +583,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Suco Natural Abacaxi c/ Hortelã</a></h4>
-                                  <span class="mu-menu-price">$10,00</span>
+                                  <span class="mu-menu-price">R$10,00</span>
                                 </div>
                               </div>
                             </li>
@@ -603,7 +603,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Limonada com Água de coco</a></h4>
-                                  <span class="mu-menu-price">$10,00</span>
+                                  <span class="mu-menu-price">R$10,00</span>
                                 </div>
                               </div>
                             </li>
@@ -616,7 +616,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Refrigerante Lata</a></h4>
-                                  <span class="mu-menu-price">$5,00</span>
+                                  <span class="mu-menu-price">R$5,00</span>
                                 </div>
                               </div>
                             </li>
@@ -629,7 +629,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Água sem Gás</a></h4>
-                                  <span class="mu-menu-price">$3,00</span>
+                                  <span class="mu-menu-price">R$3,00</span>
                                 </div>
                               </div>
                             </li>
@@ -654,7 +654,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Absolute Dose</a></h4>
-                                  <span class="mu-menu-price">$16,00</span>
+                                  <span class="mu-menu-price">R$16,00</span>
                                 </div>
                               </div>
                             </li>
@@ -667,7 +667,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Jack Daniels</a></h4>
-                                  <span class="mu-menu-price">$18,00</span>
+                                  <span class="mu-menu-price">R$18,00</span>
                                 </div>
                               </div>
                             </li>
@@ -680,7 +680,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Tequila Dose</a></h4>
-                                  <span class="mu-menu-price">$15,00</span>
+                                  <span class="mu-menu-price">R$15,00</span>
                                 </div>
                               </div>
                             </li>
@@ -699,7 +699,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Budweiser</a></h4>
-                                  <span class="mu-menu-price">$8,00</span>
+                                  <span class="mu-menu-price">R$8,00</span>
                                 </div>
                               </div>
                             </li>
@@ -712,7 +712,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Heineken</a></h4>
-                                  <span class="mu-menu-price">$9,00</span>
+                                  <span class="mu-menu-price">R$9,00</span>
                                 </div>
                               </div>
                             </li>
@@ -725,7 +725,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Backer Pilsen</a></h4>
-                                  <span class="mu-menu-price">$17,00</span>
+                                  <span class="mu-menu-price">R$17,00</span>
                                 </div>
                               </div>
                             </li>
