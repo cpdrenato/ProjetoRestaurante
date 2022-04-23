@@ -1301,7 +1301,7 @@
 
   <!-- Start Map section -->
   <section id="mu-map" style="margin-top: 70px;">
-    <iframe src="https://maps.google.com/maps?q=Avenida%20Governador%20Jos%C3%A9%20Malcher,%20Bel%C3%A9m,%20Brasil&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://maps.google.com/maps?q=Avenida%20Governador%20Jos%C3%A9%20Malcher,%20Bel%C3%A9m,%20Brasil&t=&z=15&ie=UTF8&iwloc=&output=embed" style="width:100%; height:100%" frameborder="0" allowfullscreen></iframe>
   </section>
   <!-- End Map section -->
 
