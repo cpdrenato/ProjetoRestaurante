@@ -47,7 +47,7 @@
   <!-- Pre Loader -->
   <div id="aa-preloader-area">
     <div class="mu-preloader">
-      <img src="assets/img/preloader.gif" width="110px" alt="loader img">
+      <img class="preloader" src="assets/img/preloader.gif" alt="loader img">
     </div>
   </div>
 
@@ -60,7 +60,7 @@
 
   <!-- Start header section -->
   <header id="mu-header">
-    <nav class="navbar navbar-default mu-main-navbar" role="navigation">
+    <nav class="navbar navbar-default mu-main-navbar">
       <div class="container">
         <div class="navbar-header">
           <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
@@ -83,7 +83,7 @@
             <li><a href="#mu-gallery">Galeria</a></li>
             <li><a href="#mu-contact">Contato</a></li>
             <li><a href="#mu-map">Localização</a></li>
-            <li><a href="sigin.php" href="#">Administrativo</a></li>
+            <li><a href="sigin.php">Administrativo</a></li>
           </ul>
         </div>
 
