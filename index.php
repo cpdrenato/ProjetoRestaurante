@@ -259,7 +259,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-1.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/bifeChorizo.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -272,7 +272,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-2.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/bolinho.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -285,7 +285,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-1.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/burrata.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -305,7 +305,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-1.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/bruschetta.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -319,7 +319,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-2.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/bruschetta_carne.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -333,7 +333,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-1.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/camarao.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -1169,7 +1169,7 @@
         <div class="col-md-12">
           <div class="mu-contact-area">
             <div class="mu-title">
-              <span class="mu-subtitle">Get In Touch</span>
+              <span class="mu-subtitle">Entre em Contato</span>
               <h2>Deixe sua mensagem</h2>
               <i class="fa fa-spoon"></i>
               <span class="mu-title-bar"></span>
