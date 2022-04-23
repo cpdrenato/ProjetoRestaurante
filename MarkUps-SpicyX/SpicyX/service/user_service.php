@@ -18,17 +18,18 @@ class UserService {
 
 	public function inserir() { //create
 		$dateTime = date('Y-m-d H:i:s', time());
-		$query = 'insert into user (email, password, createdAt) values (:email,:password:createdAt)';
-		// $query = 'insert into contato (name, email, assunto, mensagem) values (name,email,assunto,mensagem)';
-		// $query = 'insert into contato(tarefa)values(:tarefa)';
+		$query = 'insert into user (email, password, createdAt) values (:email,:password,:createdAt)';
+
 		$stmt = $this->conexao->prepare($query);
+
+		echo '<p>'.$this->user->__get('email').'</p>';
+		echo '<p>'.$this->user->__get('password').'</p>';
 
         $stmt->bindValue(':email', $this->user->__get('email'));
         $stmt->bindValue(':password', $this->user->__get('password'));
         $stmt->bindValue(':createdAt', $dateTime);
 		$stmt->execute();
 
-		// echo '<p>'.$this->contato->__get('mensagem').'</p>';
 	}
 
 	public function recuperar() { //read

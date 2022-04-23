@@ -1,6 +1,6 @@
 <?php
 
-require "./model/contato_model.php";
+require "./controller/contato_model.php";
 require "./service/contato_service.php";
 require "./config/conexao.php";
 
@@ -37,6 +37,7 @@ if ($acao == 'inserir') {
 
 	$ContatoService = new ContatoService($conexao, $contato);
 	$contatos = $ContatoService->recuperar();
+	
 } else if ($acao == 'remover') {
 
 	$contato = new Contato();

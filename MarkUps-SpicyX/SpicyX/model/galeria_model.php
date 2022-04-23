@@ -1,6 +1,6 @@
 <?php
 
-class User {
+class Galeria {
 	private $id;
 	private $descricao;
 	private $img;
