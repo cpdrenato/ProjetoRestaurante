@@ -599,6 +599,7 @@
                                 <div class="media-left">
                                   <a href="#">
                                     <img class="media-object" src="assets/img/menu/item-8.jpg" alt="img">
+                                    <!-- teste -->
                                   </a>
                                 </div>
                                 <div class="media-body">
