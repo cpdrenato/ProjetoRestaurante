@@ -46,7 +46,7 @@
   <!-- Pre Loader -->
   <div id="aa-preloader-area">
     <div class="mu-preloader">
-      <img src="assets/img/Preloader_2.gif" width="110px" alt=" loader img">
+      <img src="assets/img/Preloader_2.gif" width="110px" alt="loader img">
     </div>
   </div>
 
@@ -906,6 +906,18 @@
                     </div>
                   </div>
                 </div>
+                <div class="mu-single-gallery col-md-4 mix restaurant">
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/small/14.jpg"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/14.jpg" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>
+                  </div>
+                </div>
                 <!-- End single gallery image -->
                 <!-- start single gallery image -->
                 <!-- <div class="mu-single-gallery col-md-4 mix dinner">
@@ -943,6 +955,19 @@
                     </figure>
                     <div class="mu-single-gallery-info">
                       <a href="assets/img/gallery/big/6.jpg" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mu-single-gallery col-md-4 mix food">
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/small/13.jpg"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/13.jpg" data-fancybox-group="gallery" class="fancybox">
                         <img src="assets/img/plus.png" alt="plus icon img">
                       </a>
                     </div>
