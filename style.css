@@ -200,9 +200,9 @@ img {
 }
 .mu-main-navbar .navbar-header .navbar-brand {
   padding: 0;
-  margin-top: 8px;
+  /* margin-top: 8px; */
   height: 34px;
-  width: 145px;
+  /* width: 145px; */
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -214,9 +214,10 @@ img {
   height: 100%;
 }
 .mu-main-navbar .navbar-header .navbar-brand-small {
-  height: 20px;
-  margin-top: 16px;
+  /* height: 20px;
+  margin-top: 16px; */
   width: 105px;
+  margin-top: 8px;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -1303,7 +1304,7 @@ RESERVATION SECTION
 #mu-contact {
   display: inline;
   float: left;
-  padding: 100px 0;
+  /* padding: 100px 0; */
   width: 100%;
 }
 #mu-contact .mu-contact-area {

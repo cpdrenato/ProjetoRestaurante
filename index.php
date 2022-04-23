@@ -47,7 +47,7 @@
   <!-- Pre Loader -->
   <div id="aa-preloader-area">
     <div class="mu-preloader">
-      <img src="assets/img/Preloader_2.gif" width="110px" alt=" loader img">
+      <img src="assets/img/preloader.gif" width="110px" alt="loader img">
     </div>
   </div>
 
@@ -72,7 +72,7 @@
           </button>
 
           <!-- LOGO -->
-          <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="Logo img"></a>
+          <a class="navbar-brand" href="#mu-slider"><img src="assets/img/logo.png" alt="Logo img"></a>
         </div>
 
         <div id="navbar" class="navbar-collapse collapse">
@@ -358,7 +358,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-3.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/bacalhau.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -371,7 +371,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-4.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/risoto.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -384,7 +384,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-3.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/cordeiro.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -403,7 +403,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-4.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/tilapia.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -416,7 +416,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-3.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/fileMignom.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -429,7 +429,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-4.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/penne.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -454,7 +454,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-5.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/brownie.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -467,7 +467,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-6.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/cheesecake.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -480,7 +480,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-5.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/palha.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -499,7 +499,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-5.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/cocada.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -512,7 +512,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-6.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/morango.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -525,7 +525,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-5.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/coco.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -837,9 +837,9 @@
                   <li class="filter active" data-filter="all">TODOS</li>
                   <li class="filter" data-filter=".food">COMIDA</li>
                   <li class="filter" data-filter=".drink">DRINK</li>
-                  <li class="filter" data-filter=".restaurant">RESTAURANT</li>
-                  <li class="filter" data-filter=".dinner">JANTAR</li>
-                  <li class="filter" data-filter=".dessert">DESSERT</li>
+                  <li class="filter" data-filter=".restaurant">CARNES</li>
+                  <!-- <li class="filter" data-filter=".dinner">JANTAR</li> -->
+                  <li class="filter" data-filter=".dessert">SOBREMESSA</li>
                 </ul>
               </div>
               <!-- Start gallery image -->
@@ -885,9 +885,21 @@
                     </div>
                   </div>
                 </div>
+                <div class="mu-single-gallery col-md-4 mix restaurant">
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/small/14.jpg"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/14.jpg" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>
+                  </div>
+                </div>
                 <!-- End single gallery image -->
                 <!-- start single gallery image -->
-                <div class="mu-single-gallery col-md-4 mix dinner">
+                <!-- <div class="mu-single-gallery col-md-4 mix dinner">
                   <div class="mu-single-gallery-item">
                     <figure class="mu-single-gallery-img">
                       <a href="#"><img alt="img" src="assets/img/gallery/small/4.jpg"></a>
@@ -898,10 +910,10 @@
                       </a>
                     </div>
                   </div>
-                </div>
+                </div> -->
                 <!-- End single gallery image -->
                 <!-- start single gallery image -->
-                <div class="mu-single-gallery col-md-4 mix dinner">
+                <!-- <div class="mu-single-gallery col-md-4 mix dinner">
                   <div class="mu-single-gallery-item">
                     <figure class="mu-single-gallery-img">
                       <a href="#"><img alt="img" src="assets/img/gallery/small/5.jpg"></a>
@@ -912,7 +924,7 @@
                       </a>
                     </div>
                   </div>
-                </div>
+                </div> -->
                 <!-- End single gallery image -->
                 <!-- start single gallery image -->
                 <div class="mu-single-gallery col-md-4 mix food">
@@ -922,6 +934,19 @@
                     </figure>
                     <div class="mu-single-gallery-info">
                       <a href="assets/img/gallery/big/6.jpg" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mu-single-gallery col-md-4 mix food">
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/small/13.jpg"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/13.jpg" data-fancybox-group="gallery" class="fancybox">
                         <img src="assets/img/plus.png" alt="plus icon img">
                       </a>
                     </div>
@@ -941,6 +966,34 @@
                     </div>
                   </div>
                 </div>
+
+                <div class="mu-single-gallery col-md-4 mix drink">
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/small/11.jpg"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/11.jpg" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="mu-single-gallery col-md-4 mix drink">
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/small/12.jpg"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/12.jpg" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                
                 <!-- End single gallery image -->
                 <!-- start single gallery image -->
                 <div class="mu-single-gallery col-md-4 mix restaurant">
@@ -964,6 +1017,19 @@
                     </figure>
                     <div class="mu-single-gallery-info">
                       <a href="assets/img/gallery/big/9.jpg" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End single gallery image -->
+                <div class="mu-single-gallery col-md-4 mix dessert">
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/small/10.jpg"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/10.jpg" data-fancybox-group="gallery" class="fancybox">
                         <img src="assets/img/plus.png" alt="plus icon img">
                       </a>
                     </div>
@@ -1234,7 +1300,7 @@
   <!-- End Contact section -->
 
   <!-- Start Map section -->
-  <section id="mu-map">
+  <section id="mu-map" style="margin-top: 70px;">
     <iframe src="https://maps.google.com/maps?q=Avenida%20Governador%20Jos%C3%A9%20Malcher,%20Bel%C3%A9m,%20Brasil&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
   </section>
   <!-- End Map section -->
