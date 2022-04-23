@@ -231,11 +231,12 @@
         <div class="col-md-12">
           <div class="mu-restaurant-menu-area">
             <div class="mu-title">
-              <span class="mu-subtitle">Descubra</span>
+              <span class="mu-subtitle">Conheça</span>
               <h2>Nosso Cardápio</h2>
               <i class="fa fa-spoon"></i>
               <span class="mu-title-bar"></span>
             </div>
+
             <div class="mu-restaurant-menu-content">
               <ul class="nav nav-tabs mu-restaurant-menu">
                 <li class="active"><a href="#breakfast" data-toggle="tab">Entradas e Petiscos</a></li>
