@@ -2294,6 +2294,7 @@ RESERVATION SECTION
 
   #mu-map {
     height: 350px;
+    margin-top: 70px;
   }
 
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li {
