@@ -825,7 +825,7 @@
           <div class="mu-gallery-area">
             <div class="mu-title">
               <span class="mu-subtitle">Descubra</span>
-              <h2>Our Gallery</h2>
+              <h2>Nossa Galeria</h2>
               <i class="fa fa-spoon"></i>
               <span class="mu-title-bar"></span>
             </div>
