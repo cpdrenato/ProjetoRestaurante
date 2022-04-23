@@ -358,7 +358,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-3.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/bacalhau.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -371,7 +371,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-4.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/risoto.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -384,7 +384,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-3.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/cordeiro.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -403,7 +403,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-4.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/tilapia.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -416,7 +416,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-3.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/fileMignom.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -429,7 +429,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-4.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/penne.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -454,7 +454,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-5.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/brownie.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -467,7 +467,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-6.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/cheesecake.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -480,7 +480,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-5.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/palha.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -499,7 +499,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-5.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/cocada.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -512,7 +512,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-6.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/morango.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
@@ -525,7 +525,7 @@
                               <div class="media">
                                 <div class="media-left">
                                   <a href="#">
-                                    <img class="media-object" src="assets/img/menu/item-5.jpg" alt="img">
+                                    <img class="media-object" src="assets/img/menu/coco.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
