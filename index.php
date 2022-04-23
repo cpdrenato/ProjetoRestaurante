@@ -1,15 +1,16 @@
+<?php require_once("config.php") ?> <!-- Chamada do arquivo config.php -->
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SpicyX | Home</title>
+  <title><?php echo $nome_site ?></title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-
   <!-- Font awesome -->
   <link href="assets/css/font-awesome.css" rel="stylesheet">
   <!-- Bootstrap -->
@@ -22,7 +23,6 @@
   <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" />
   <!-- Theme color -->
   <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
-
   <!-- Main style sheet -->
   <link href="style.css" rel="stylesheet">
 
@@ -46,13 +46,14 @@
   <!-- Pre Loader -->
   <div id="aa-preloader-area">
     <div class="mu-preloader">
-      <img src="assets/img/preloader.gif" alt=" loader img">
+      <img src="assets/img/Preloader_2.gif" width="110px" alt=" loader img">
     </div>
   </div>
+
   <!--START SCROLL TOP BUTTON -->
   <a class="scrollToTop" href="#">
     <i class="fa fa-angle-up"></i>
-    <span>Top</span>
+    <span>Topo</span>
   </a>
   <!-- END SCROLL TOP BUTTON -->
 
@@ -68,9 +69,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+
           <!-- LOGO -->
           <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="Logo img"></a>
         </div>
+        
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
             <li><a href="#mu-slider">Início</a></li>
@@ -78,10 +81,10 @@
             <li><a href="#mu-restaurant-menu">Cardápio</a></li>
             <li><a href="#mu-gallery">Galeria</a></li>
             <li><a href="#mu-contact">Contato</a></li>
-            <li><a href="sigin.php" class="btn loginBtn" href="#">Adminsitrativo</a></li>
+            <li><a href="sigin.php" href="#">Administrativo</a></li>
           </ul>
         </div>
-        <!--/.nav-collapse -->
+
       </div>
     </nav>
   </header>
@@ -91,47 +94,38 @@
   <!-- Start slider  -->
   <section id="mu-slider">
     <div class="mu-slider-area">
-      <!-- Top slider -->
       <div class="mu-top-slider">
-        <!-- Top slider single slide -->
+        
         <div class="mu-top-slider-single">
           <img src="assets/img/slider/1.jpg" alt="img">
-          <!-- Top slider content -->
           <div class="mu-top-slider-content">
             <span class="mu-slider-small-title">Bem Vindo</span>
-            <h2 class="mu-slider-title">Restaurante Bicuiba</h2>
-            <p>Venha fazer uma visita ao nosso restaurante e aproveitar os nossos melhores pratos.</p>
+            <h2 class="mu-slider-title"><?php echo $nome_site ?></h2>
+            <p><?php echo $texto_boasVindas ?></p>
             <a href="#mu-about-us" class="mu-readmore-btn">Sobre nós</a>
           </div>
-          <!-- / Top slider content -->
         </div>
-        <!-- / Top slider single slide -->
-        <!-- Top slider single slide -->
+
         <div class="mu-top-slider-single">
           <img src="assets/img/slider/2.jpg" alt="img">
-          <!-- Top slider content -->
           <div class="mu-top-slider-content">
             <span class="mu-slider-small-title">Bem Vindo</span>
-            <h2 class="mu-slider-title">Restaurante Bicuiba</h2>
-            <p>Venha fazer uma visita ao nosso restaurante e aproveitar os nossos melhores pratos.</p>
+            <h2 class="mu-slider-title"><?php echo $nome_site ?></h2>
+            <p><?php echo $texto_boasVindas ?></p>
             <a href="#mu-about-us" class="mu-readmore-btn">Sobre nós</a>
           </div>
-          <!-- / Top slider content -->
         </div>
-        <!-- / Top slider single slide -->
-        <!-- Top slider single slide -->
+
         <div class="mu-top-slider-single">
           <img src="assets/img/slider/3.jpg" alt="img">
-          <!-- Top slider content -->
           <div class="mu-top-slider-content">
             <span class="mu-slider-small-title">Bem Vindo</span>
-            <h2 class="mu-slider-title">Restaurante Bicuiba</h2>
-            <p>Venha fazer uma visita ao nosso restaurante e aproveitar os nossos melhores pratos.</p>
+            <h2 class="mu-slider-title"><?php echo $nome_site ?></h2>
+            <p><?php echo $texto_boasVindas ?></p>
             <a href="#mu-about-us" class="mu-readmore-btn">Sobre nós</a>
           </div>
-          <!-- / Top slider content -->
         </div>
-        <!-- / Top slider single slide -->
+
       </div>
     </div>
   </section>
@@ -164,6 +158,8 @@
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque similique molestias est quod reprehenderit, quibusdam nam qui, quam magnam. Ex.</p>
                 </div>
               </div>
+
+              <!-- slider sobre nós -->
               <div class="col-md-6">
                 <div class="mu-about-us-right">
                   <ul class="mu-abtus-slider">
@@ -171,12 +167,15 @@
                   </ul>
                 </div>
               </div>
+              <!-- fim slider -->
+              
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
   <!-- End About us -->
 
   <!-- Start Counter Section -->
@@ -238,11 +237,11 @@
             </div>
             <div class="mu-restaurant-menu-content">
               <ul class="nav nav-tabs mu-restaurant-menu">
-                <li class="active"><a href="#breakfast" data-toggle="tab">Café da manhã</a></li>
-                <li><a href="#meals" data-toggle="tab">Refeições</a></li>
+                <li class="active"><a href="#meals" data-toggle="tab">Refeições</a></li>
                 <li><a href="#snacks" data-toggle="tab">Lanches</a></li>
                 <li><a href="#desserts" data-toggle="tab">Sobremesas</a></li>
                 <li><a href="#drinks" data-toggle="tab">Bebidas</a></li>
+                <li><a href="#breakfast" data-toggle="tab">Café da manhã</a></li>
               </ul>
 
               <!-- Tab panes -->
@@ -262,7 +261,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">English Breakfast</a></h4>
-                                  <span class="mu-menu-price">$15.85</span>
+                                  <span class="mu-menu-price">R$15.85</span>
                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                 </div>
                               </div>
@@ -276,7 +275,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Chines Breakfast</a></h4>
-                                  <span class="mu-menu-price">$11.95</span>
+                                  <span class="mu-menu-price">R$11.95</span>
                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                 </div>
                               </div>
@@ -290,7 +289,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Indian Breakfast</a></h4>
-                                  <span class="mu-menu-price">$15.85</span>
+                                  <span class="mu-menu-price">R$15.85</span>
                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                 </div>
                               </div>
@@ -310,7 +309,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">English Breakfast</a></h4>
-                                  <span class="mu-menu-price">$15.85</span>
+                                  <span class="mu-menu-price">R$15.85</span>
                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                 </div>
                               </div>
@@ -324,7 +323,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Chines Breakfast</a></h4>
-                                  <span class="mu-menu-price">$11.95</span>
+                                  <span class="mu-menu-price">R$11.95</span>
                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                 </div>
                               </div>
@@ -338,7 +337,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Indian Breakfast</a></h4>
-                                  <span class="mu-menu-price">$15.85</span>
+                                  <span class="mu-menu-price">R$15.85</span>
                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                 </div>
                               </div>
@@ -364,7 +363,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">English Breakfast</a></h4>
-                                  <span class="mu-menu-price">$15.85</span>
+                                  <span class="mu-menu-price">R$15.85</span>
                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                 </div>
                               </div>
@@ -378,7 +377,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Chines Breakfast</a></h4>
-                                  <span class="mu-menu-price">$11.95</span>
+                                  <span class="mu-menu-price">R$11.95</span>
                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                 </div>
                               </div>
@@ -392,7 +391,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Indian Breakfast</a></h4>
-                                  <span class="mu-menu-price">$15.85</span>
+                                  <span class="mu-menu-price">R$15.85</span>
                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                 </div>
                               </div>
@@ -412,7 +411,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">English Breakfast</a></h4>
-                                  <span class="mu-menu-price">$15.85</span>
+                                  <span class="mu-menu-price">R$15.85</span>
                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                 </div>
                               </div>
@@ -426,7 +425,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Chines Breakfast</a></h4>
-                                  <span class="mu-menu-price">$11.95</span>
+                                  <span class="mu-menu-price">R$11.95</span>
                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                 </div>
                               </div>
@@ -440,7 +439,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Indian Breakfast</a></h4>
-                                  <span class="mu-menu-price">$15.85</span>
+                                  <span class="mu-menu-price">R$15.85</span>
                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                 </div>
                               </div>
@@ -466,7 +465,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">English Breakfast</a></h4>
-                                  <span class="mu-menu-price">$15.85</span>
+                                  <span class="mu-menu-price">R$15.85</span>
                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                 </div>
                               </div>
@@ -480,7 +479,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Chines Breakfast</a></h4>
-                                  <span class="mu-menu-price">$11.95</span>
+                                  <span class="mu-menu-price">R$11.95</span>
                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                 </div>
                               </div>
@@ -494,7 +493,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Indian Breakfast</a></h4>
-                                  <span class="mu-menu-price">$15.85</span>
+                                  <span class="mu-menu-price">R$15.85</span>
                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                 </div>
                               </div>
@@ -514,7 +513,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">English Breakfast</a></h4>
-                                  <span class="mu-menu-price">$15.85</span>
+                                  <span class="mu-menu-price">R$15.85</span>
                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                 </div>
                               </div>
@@ -528,7 +527,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Chines Breakfast</a></h4>
-                                  <span class="mu-menu-price">$11.95</span>
+                                  <span class="mu-menu-price">R$11.95</span>
                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                 </div>
                               </div>
@@ -542,7 +541,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#">Indian Breakfast</a></h4>
-                                  <span class="mu-menu-price">$15.85</span>
+                                  <span class="mu-menu-price">R$15.85</span>
                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                 </div>
                               </div>
@@ -856,11 +855,11 @@
               <div class="mu-gallery-top">
                 <!-- Start gallery menu -->
                 <ul>
-                  <li class="filter active" data-filter="all">ALL</li>
-                  <li class="filter" data-filter=".food">FOOD</li>
+                  <li class="filter active" data-filter="all">TODOS</li>
+                  <li class="filter" data-filter=".food">COMIDA</li>
                   <li class="filter" data-filter=".drink">DRINK</li>
                   <li class="filter" data-filter=".restaurant">RESTAURANT</li>
-                  <li class="filter" data-filter=".dinner">DINNER</li>
+                  <li class="filter" data-filter=".dinner">JANTAR</li>
                   <li class="filter" data-filter=".dessert">DESSERT</li>
                 </ul>
               </div>

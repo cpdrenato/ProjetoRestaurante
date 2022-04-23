@@ -49,7 +49,7 @@
 
             <div class="form-floating">
                 <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Email</label>
+                <label for="floatingInput">Login</label>
             </div>
             <div class="form-floating">
                 <input name="senha" type="password" class="form-control" id="floatingPassword" placeholder="Password">
@@ -61,16 +61,15 @@
                     <input type="checkbox" value="remember-me"> Remember me
                 </label>
             </div> -->
-            <div class="d-flex flex-row bd-highlight mb-3">
-                <button class=" btn btn-lg" style="background-color: green; color: white; margin-right: 5px;" type="submit"><a style="text-decoration: none; color: white;" href="index.php">Voltar</a></button>
-                <button class=" btn btn-lg" style="background-color: #c1a35f; color: white;" type="submit">Entrar</button>
+            <div class="d-flex flex-row bd-highlight mb-3" style="justify-content: center">
+                <button class=" btn btn-lg" style="background-color: #c1a35f; color: white; margin-right: 5px;" type="submit"><a style="text-decoration: none; color: white;" href="index.php">Voltar</a></button>
+                <button class=" btn btn-lg" style="background-color: green; color: white;" type="submit">Entrar</button>
             </div>
-            <? if (isset($_GET['login']) && $_GET['login'] == 'erro') { ?>
 
+            <? if (isset($_GET['login']) && $_GET['login'] == 'erro') { ?>
                 <div class="text-danger">
                     Usuário ou senha inválido(s)
                 </div>
-
             <? } ?>
 
             <? if (isset($_GET['login']) && $_GET['login'] == 'erro2') { ?>
