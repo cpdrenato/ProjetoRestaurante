@@ -47,7 +47,7 @@
   <!-- Pre Loader -->
   <div id="aa-preloader-area">
     <div class="mu-preloader">
-      <img src="assets/img/Preloader_2.gif" width="110px" alt="loader img">
+      <img src="assets/img/preloader.gif" width="110px" alt="loader img">
     </div>
   </div>
 
@@ -72,7 +72,7 @@
           </button>
 
           <!-- LOGO -->
-          <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="Logo img"></a>
+          <a class="navbar-brand" href="#mu-slider"><img src="assets/img/logo.png" alt="Logo img"></a>
         </div>
 
         <div id="navbar" class="navbar-collapse collapse">
