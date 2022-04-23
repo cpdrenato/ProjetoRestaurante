@@ -25,7 +25,7 @@
   <!-- Theme color -->
   <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
   <!-- Main style sheet -->
-  <link href="style.css" rel="stylesheet">
+  <link href="style.css" type="text/css" rel="stylesheet">
 
 
   <!-- Google Fonts -->
