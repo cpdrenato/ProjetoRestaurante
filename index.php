@@ -32,7 +32,7 @@
   <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
-
+  
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -1300,9 +1300,9 @@
   <!-- End Contact section -->
 
   <!-- Start Map section -->
-  <section id="mu-map" style="margin-top: 70px;">
-    <iframe src="https://maps.google.com/maps?q=Avenida%20Governador%20Jos%C3%A9%20Malcher,%20Bel%C3%A9m,%20Brasil&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
-  </section>
+  <div id="mu-map" style="margin-top: 70px;">
+    <iframe src="https://maps.google.com/maps?q=Avenida%20Governador%20Jos%C3%A9%20Malcher,%20Bel%C3%A9m,%20Brasil&t=&z=15&ie=UTF8&iwloc=&output=embed" allowfullscreen></iframe>
+    </div>
   <!-- End Map section -->
 
   <!-- Start Footer -->
@@ -1335,9 +1335,6 @@
   <!-- Mixit slider -->
   <script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
   <!-- Add fancyBox -->
-  <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
-
-  <!-- Custom js -->
+  <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>  
   <script src="assets/js/custom.js"></script>
-
 </body>
