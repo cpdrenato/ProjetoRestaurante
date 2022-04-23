@@ -858,9 +858,9 @@
                   <li class="filter active" data-filter="all">TODOS</li>
                   <li class="filter" data-filter=".food">COMIDA</li>
                   <li class="filter" data-filter=".drink">DRINK</li>
-                  <li class="filter" data-filter=".restaurant">RESTAURANT</li>
-                  <li class="filter" data-filter=".dinner">JANTAR</li>
-                  <li class="filter" data-filter=".dessert">DESSERT</li>
+                  <li class="filter" data-filter=".restaurant">CARNES</li>
+                  <!-- <li class="filter" data-filter=".dinner">JANTAR</li> -->
+                  <li class="filter" data-filter=".dessert">SOBREMESSA</li>
                 </ul>
               </div>
               <!-- Start gallery image -->
@@ -908,7 +908,7 @@
                 </div>
                 <!-- End single gallery image -->
                 <!-- start single gallery image -->
-                <div class="mu-single-gallery col-md-4 mix dinner">
+                <!-- <div class="mu-single-gallery col-md-4 mix dinner">
                   <div class="mu-single-gallery-item">
                     <figure class="mu-single-gallery-img">
                       <a href="#"><img alt="img" src="assets/img/gallery/small/4.jpg"></a>
@@ -919,10 +919,10 @@
                       </a>
                     </div>
                   </div>
-                </div>
+                </div> -->
                 <!-- End single gallery image -->
                 <!-- start single gallery image -->
-                <div class="mu-single-gallery col-md-4 mix dinner">
+                <!-- <div class="mu-single-gallery col-md-4 mix dinner">
                   <div class="mu-single-gallery-item">
                     <figure class="mu-single-gallery-img">
                       <a href="#"><img alt="img" src="assets/img/gallery/small/5.jpg"></a>
@@ -933,7 +933,7 @@
                       </a>
                     </div>
                   </div>
-                </div>
+                </div> -->
                 <!-- End single gallery image -->
                 <!-- start single gallery image -->
                 <div class="mu-single-gallery col-md-4 mix food">
@@ -962,6 +962,34 @@
                     </div>
                   </div>
                 </div>
+
+                <div class="mu-single-gallery col-md-4 mix drink">
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/small/11.jpg"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/11.jpg" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="mu-single-gallery col-md-4 mix drink">
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/small/12.jpg"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/12.jpg" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                
                 <!-- End single gallery image -->
                 <!-- start single gallery image -->
                 <div class="mu-single-gallery col-md-4 mix restaurant">
@@ -985,6 +1013,19 @@
                     </figure>
                     <div class="mu-single-gallery-info">
                       <a href="assets/img/gallery/big/9.jpg" data-fancybox-group="gallery" class="fancybox">
+                        <img src="assets/img/plus.png" alt="plus icon img">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End single gallery image -->
+                <div class="mu-single-gallery col-md-4 mix dessert">
+                  <div class="mu-single-gallery-item">
+                    <figure class="mu-single-gallery-img">
+                      <a href="#"><img alt="img" src="assets/img/gallery/small/10.jpg"></a>
+                    </figure>
+                    <div class="mu-single-gallery-info">
+                      <a href="assets/img/gallery/big/10.jpg" data-fancybox-group="gallery" class="fancybox">
                         <img src="assets/img/plus.png" alt="plus icon img">
                       </a>
                     </div>
