@@ -82,6 +82,7 @@
             <li><a href="#mu-restaurant-menu">Cardápio</a></li>
             <li><a href="#mu-gallery">Galeria</a></li>
             <li><a href="#mu-contact">Contato</a></li>
+            <li><a href="#mu-map">Localização</a></li>
             <li><a href="sigin.php" href="#">Administrativo</a></li>
           </ul>
         </div>
@@ -1228,20 +1229,20 @@
                 <div class="col-md-6">
                   <div class="mu-contact-right">
                     <div class="mu-contact-widget">
-                      <h3>Office Address</h3>
+                      <h3>Endereço do escritório</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia temporibus corporis ea non consequatur porro corrupti hic voluptatibus assumenda, doloribus.</p>
                       <address>
-                        <p><i class="fa fa-phone"></i> (850) 457 6688</p>
-                        <p><i class="fa fa-envelope-o"></i>contact@markups.io</p>
-                        <p><i class="fa fa-map-marker"></i>368 St. Panama City, Florida, USA</p>
+                        <p><i class="fa fa-phone"></i>(29) 60619-7062</p>
+                        <p><i class="fa fa-envelope-o"></i>restaurante@email.com.br</p>
+                        <p><i class="fa fa-map-marker"></i>Avenida Governador José Malcher, Belém, Brasil</p>
                       </address>
                     </div>
                     <div class="mu-contact-widget">
-                      <h3>Open Hours</h3>
+                      <h3>Horário de funcionamento</h3>
                       <address>
-                        <p><span>Monday - Friday</span> 9.00 am to 12 pm</p>
-                        <p><span>Saturday</span> 9.00 am to 10 pm</p>
-                        <p><span>Sunday</span> 10.00 am to 12 pm</p>
+                        <p><span>Segunça - Sexta</span> 9.00 am to 12 pm</p>
+                        <p><span>Sábado</span> 9.00 am to 10 pm</p>
+                        <p><span>Domingo</span> 10.00 am to 12 pm</p>
                       </address>
                     </div>
                   </div>
